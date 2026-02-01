@@ -35,7 +35,7 @@ const Estadisticas = () => {
           <div className="fila" key={index}>
             <div className="celda nombre-stat"><strong>{item.titulo}</strong></div>
             <div className="celda descripcion-stat">
-              <span className="texto-oculto">{item.desc}</span>
+              <span className="texto-oculto"><strong>{item.desc}</strong></span>
             </div>
           </div>
         ))}
