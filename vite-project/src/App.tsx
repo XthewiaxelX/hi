@@ -1,6 +1,6 @@
 // src/App.tsx
-import React from 'react'
-import { Routes, Route, Link } from 'react-router-dom'
+
+import { Routes, Route} from 'react-router-dom'
 import Home from './Home.tsx'
 import Estaditicas from './Estadisticas.tsx'
 
